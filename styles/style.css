@@ -8,7 +8,8 @@
 body{
   font-family: "Inter", sans-serif;
   color: rgb(13, 19, 33);
-
+  width: 1440px;
+  background: rgb(255, 255, 255);
 }
 .title-description{
   width: 852px;
@@ -75,6 +76,7 @@ body{
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 /* main styles */
 main{
@@ -87,10 +89,14 @@ main{
   border-radius: 16px;
 }
 .why-web-section{
-  width:  1140px;
-  height: 1235px;
+  width: 1140px;
+  height: 1395px;
   background: rgba(13, 19, 33, 0.02);
-
+  padding:80px 97px;
+}
+.why-web-section-container{
+  width:100%;
+  height:100%;
 }
 
 .why-web-container{
@@ -105,7 +111,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 .why-web-div{
   width: 850px;
@@ -125,7 +131,6 @@ main{
 .why-web-img-content{
   width: 259.56px;
   height: 217.01px;
-
 }
 
 /* common style */
@@ -152,7 +157,7 @@ main{
   font-size: 20px;
   font-weight: 600;
   opacity: 0.7;
-
+  cursor: pointer;
 }
 
 /* 'My inspiration' Styles */
@@ -182,6 +187,7 @@ main{
   gap:24px;
  }
  .my-target-div-container{
+  border-radius: 16px;
   width:33%;
   height: 299px;
   padding:40px ;
@@ -213,17 +219,17 @@ main{
   width: 1140px;
   height: 314px;
   margin:47px auto 79px;
-  background-image: url(../assets/handshake.jpg);
+  background-image:url(../assets/handshake.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
   padding:64px 48px;
+  border-radius: 16px;
+
  }
  .need-support-container{
   width:100%;
   height:100%;
-  
-  
  }
  .need-support-header{
   width: 730px;
@@ -232,15 +238,17 @@ main{
   margin-bottom: 24px;
   text-align: center;  
   color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 25px;
+  font-weight: 800;
+
+}
+.need-support-header p{
+  width: 606px;
+  height: 52px;
+  margin:16px 62px 0px 62px;
 }
 .need-support-feedback{
-  
   margin:0 auto ;
-  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -252,26 +260,42 @@ main{
   width: 548px;
   height: 57px;
   border: 1px solid rgba(13, 19, 33, 0.15);
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
 }
 #submit-button{
   width: 120px;
   height: 58px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
 }
 /* Footer */
 footer{
-  width: 1440px;
+  
   height: 100px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
   padding:32px 150px;
 }
 .footer-content{
-  
+  width: 1140px;
+  height: 36px;
+  margin:0 auto;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
+}
+.footer-links{
+  gap:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center; 
 }
